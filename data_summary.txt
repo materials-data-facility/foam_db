@@ -1,9 +1,8 @@
-
 **********************************************************************************************
 ----------------------------------------------------------------------------------------------
 DATA SOURCE MODALITIES (top level folders):
 ----------------------------------------------------------------------------------------------
-DMA_data:               data from dynamic mechanical anaylsis from small-amplitude oscilitory 
+DMA_data:               data from dynamic mechanical analysis from small-amplitude oscillatory 
                         strain experiments and time-temperature superposition (TTS)
 
 intermediate_rate_data: data from a series of load-frame experiments at effective 
@@ -11,9 +10,9 @@ intermediate_rate_data: data from a series of load-frame experiments at effectiv
                         digital image correlation
 
 microCT_data:           Micro-x-ray computed tomograph volume images (greyscale and binarized)
-                        at assorted magnifcations and/or with in-situ compression
+                        at assorted magnifications and/or with in-situ compression
 
-quasistatic_rate_data: data from quasistatic (no rate-dependant effects active) load-frame 
+quasistatic_rate_data: data from quasistatic (no rate-dependent effects active) load-frame 
                        experiments with high-resolution digital image correlation 
 
 
@@ -23,7 +22,7 @@ MATERIALS TESTED (subfolders with a given test modality):
 ----------------------------------------------------------------------------------------------
 
 VN01: vinyl-nitrile close-cell foam from Dertex Corp "Impax VN600". Probably a 
-      nitrilebutadiene/polyvinyl-cholride blend, manufacture quoted specifications are 
+      nitrilebutadiene/polyvinyl-chloride blend, manufacture quoted specifications are 
       as follows:
         ____________________________________________________________________________
        | DESCRIPTION             TEST METHOD       VN600           UNITS            |
@@ -34,7 +33,7 @@ VN01: vinyl-nitrile close-cell foam from Dertex Corp "Impax VN600". Probably a
        | TENSILE STRENGTH        ASTM D412            13           kg/cm²           | 
        | TEAR STRENGTH           ASTM D624	      6.5          kg/cm            |
        | ELONGATION              ASTM D412            150 (min.)   % elongation     |
-       | LINEAR SHRINKAGE        70 °C x 24 HR (10mm) 2.5          % shinkage       |
+       | LINEAR SHRINKAGE        70 °C x 24 HR (10mm) 2.5          % shrinkage       |
        | COMPRESSION DEFLECTION  ASTM D1056           58.6 (min.)  25 % MPa         |
        |                         (TEMP. 21± 0.5°c)    8.4 (min.)   25 % PSI         |
        | RESILENCE               DIN 53512            13           % rebound        |
@@ -59,7 +58,7 @@ Micro CT analysis:          Python library to read in, process, and write out vo
                             and to write out volumes as .stl files. 
 
 Intermediate rate analysis: Matlab-base digital image correlation package set up to run on
-                            eletromechanical data and high-resolution camera data
+                            electromechanical data and high-resolution camera data
 
 **********************************************************************************************
 
