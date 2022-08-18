@@ -96,7 +96,7 @@ Matlab-base digital image correlation package set up to run on electromechanical
 
 ## Example Notebooks
 
-**2022-08-18** This repository is under construction, check back soon
+**2022-08-18** This example notebooks are under construction, check back soon
 
 # How to Cite this Work
 ```
@@ -108,7 +108,7 @@ Materials Data Facility, 2022. https://doi.org/10.18126/6H74-LEB4.
 # Changelog
 **2022-08-04** Repository created
 
-**2022-08-18** Added links and instructions for how to access data
+**2022-08-18** Added links and instructions for how to access data, more thorough description of data artifacts, NIST disclaimer.
 
 
 # Project Support
@@ -120,7 +120,7 @@ Data was collected in part while A.L., O.K. and N.M. held NRC Research Associate
 
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
-# DISCLAIMER
+## DISCLAIMER
 ----------------------------------------------------------------------------------------------
 
 Certain commercial equipment, instruments, or materials are identified in this dataset in order to 
