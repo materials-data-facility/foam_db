@@ -96,6 +96,11 @@ Matlab-base digital image correlation package set up to run on electromechanical
 
 ## Example Notebooks
 
+### Stress Strain Curve Example
+[Example Notebook](https://github.com/materials-data-facility/foam_db/blob/main/examples/stress-strain.ipynb)
+
+<img src="https://raw.githubusercontent.com/materials-data-facility/foam_db/main/examples/imgs/stress-strain.png" width="200">
+
 **2022-08-18** This example notebooks are under construction, check back soon
 
 # How to Cite this Work
