@@ -14,12 +14,99 @@ The database includes data for structure-properties relationships and mechanical
     ├── DMA_data/
     │   ├── data_framework_DMA.txt
     │   ├── supporting_analyses/
-    │   │   └── 
+    │   │   └── [analysis files]
     │   └── VN01/
-    │       └── 
+    |       |── VN01_DMA_data_notes.txt
+    │       |── VN01_001_D06_003_R01/
+    |       |   |── VN01_001_D06_003_R01_Procedures/
+    |       |   |   └── [procedure files]
+    |       |   |── VN01_001_D06_003_R01_TTS/
+    |       |   |   |── [VN01_001_D06_003_sweep_60C_to_n35C_full_data.xls]
+    |       |   |   └── [VN01_TTS_D06_003_R01.xlsx]
+    |       |   └── [raw data files] 
+    |       |── VN01_001_D06_004_R01/
+    |       |   |── VN01_001_D06_004_R01_Procedures/
+    |       |   |   └── [procedure files]
+    |       |   |── VN01_001_D06_004_R01_TTS/
+    |       |   |   |── [VN01_001_D06_004_sweep_60C_to_n35C_full_data.xls]
+    |       |   |   └── [VN01_TTS_D06_004_R01.xlsx]
+    |       |   └── [raw data files]
+    |       └── VN01_001_D06_preliminary_experiments/
+    |           |── VN01_001_D06_preliminary_procedures/
+    |           |   └── [procedure files]
+    |           └── [raw data files]
     ├── intermediate_rate_data
+    │   ├── data_framework_intermediate.txt
+    │   ├── Foam_intermediate_rate_Table_of_Contents.txt
+    │   ├── supporting_analyses/
+    │   │   └── [analysis files]
+    │   └── VN01/
+    |       |── VN01_notes_intermediate.txt
+    │       └── VN01_001_003_[R0p01,R0p10,R01p0,R10p0]_[00,01,02]/
+    |           |── VN01_001_003_[R0p01,R0p10,R01p0,R10p0]_[00,01,02]_images/
+    |           |   └── [image files]
+    |           |── VN01_001_003_[R0p01,R0p10,R01p0,R10p0]_[00,01,02]_dic.mat
+    |           |── VN01_001_003_[R0p01,R0p10,R01p0,R10p0]_[00,01,02]_load.csv
+    |           |── VN01_001_003_[R0p01,R0p10,R01p0,R10p0]_[00,01,02]_load.xml
+    |           └── VN01_001_003_[R0p01,R0p10,R01p0,R10p0]_[00,01,02]_length_scale.tif
     ├── microCT_data
+    │   ├── data_framework_microCT.txt
+    │   ├── Foam_microCT_Table_of_Contents.txt
+    │   ├── supporting_analyses/
+    │   │   └── python_imaging_library/
+    |   |       |── dependencies/
+    |   |       |   └── [analysis scripts]
+    |   |       |── segmentation_scripts/
+    |   |       |   └── [analysis scripts] 
+    |   |       └── visualization_3D_script/
+    |   |           └── [analysis scripts]
+    │   └── VN01/
+    |       |── VN01_notes_microCT.txt
+    │       |── VN01_16X2_S004_BASE/
+    |       |   |── VN01_16X2_S004_BASE_notes.txt
+    |       |   |── VN01_16X2_S004_BASE_BIN0/
+    |       |   |   └── [binarized images]
+    |       |   |── VN01_16X2_S004_BASE_IMG0/
+    |       |   |   └── [greyscale images]
+    |       |   └── VN01_16X2_S004_BASE_RAW0/
+    |       |       └── [raw projection data]
+    |       |── VN01_[8X02,4X02]_S003_BASE/
+    |       |   |── VN01_[8X02,4X02]_S003_BASE_notes.txt
+    |       |   |── VN01_[8X02,4X02]_S003_BASE_BIN0/
+    |       |   |   └── [binarized images]
+    |       |   |── VN01_[8X02,4X02]_S003_BASE_IMG0/
+    |       |   |   └── [greyscale images]
+    |       |   └── VN01_[8X02,4X02]_S003_BASE_RAW0/
+    |       |       └── [raw projection data]
+    |       |── VN01_4X02_S001_COMP/
+    |       |   |── VN01_4X02_S001_COMP_notes.txt
+    |       |   |── VN01_4X02_S001_COMP_BIN[0-6]/
+    |       |   |   └── [binarized images]
+    |       |   |── VN01_4X02_S001_COMP_IMG[0-6]/
+    |       |   |   └── [greyscale images]
+    |       |   └── VN01_4X02_S001_COMP_RAW[0-6]/
+    |       |       └── [raw projection data]
+    |       └── VN01_20X2_S002_COMP/
+    |           |── VN01_20X2_S002_COMP_notes.txt
+    |           |── VN01_20X2_S002_COMP_BIN[0-6]/
+    |           |   └── [binarized images]
+    |           |── VN01_20X2_S002_COMP_IMG[0-6]/
+    |           |   └── [greyscale images]
+    |           └── VN01_20X2_S002_COMP_RAW[0-6]/
+    |               └── [raw projection data]
     └── quasistatic_rate_data
+        ├── data_framework_quasistatic.txt
+        ├── foam_quasistatic_Table_of_Contents.txt
+        ├── supporting_analyses/
+        │   └── [analysis files]
+        └── VN01/
+            |── VN01_notes_quasistatic.txt
+            └── VN01_001_003_QS06_[00,01,02]/
+                |── VN01_001_003_QS06_[00,01,02]_images/
+                |   └── [image files]
+                |── VN01_001_003_QS06_[00,01,02]_dic.mat
+                |── VN01_001_003_QS06_[00,01,02]_load.csv
+                └── VN01_001_003_QS06_[00,01,02]_length_scale.bmp
  ```
 
 
