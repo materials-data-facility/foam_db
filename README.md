@@ -24,9 +24,27 @@ The database includes data for structure-properties relationships and mechanical
 
 ## Access Data by Composition
 
+Currently there is one composition in this dataset VN01 foam. A description of VN01 foam can be found in the forthcoming publication.
+
+DMA VN01
+Quasi-Static VN01
+Intermediate Rate Compression VN01
+microCT VN01
+
+
+
+
 Add instructions and links here...
 
-## Access Data by Data Type
+## Access Data by Experiment Type
+
+[DMA Data](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FDMA_data%2F)
+
+[Quasi-static Compression](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2Fquasistatic_rate_data%2F)
+
+[Intermediate Rate Compression](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2Fintermediate_rate_data%2F)
+
+[microCT Data](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FmicroCT_data%2F)
 
 Add instructions and links here...
 
@@ -44,6 +62,7 @@ Materials Data Facility, 2022. https://doi.org/10.18126/6H74-LEB4.
 
 # Changelog
 **2022-08-04** Repository created
+
 **2022-08-18** Added links and instructions for how to access data
 
 
