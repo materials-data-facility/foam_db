@@ -1,7 +1,5 @@
 # Elastomeric Foam Impact Mitigating Materials Database
 
-**2022-08-04** This repository is under construction, check back soon
-
 The database includes data for structure-properties relationships and mechanical modeling of elastic impact protection foams from a variety of imaging (micro-computed tomography, digital image correlation) and force-sensing instruments (dynamic mechanical analysis, universal test system) under a wide range of experimental conditions and modes. The data repository includes directories for: dynamic mechanical analysis raw data, results, and analysis tools; intermediate rate (servo-hydraulic UTS based) raw data including 2D digital image correlation (DIC) images, results, and analysis tools; quasi-static rate (electro-mechanical UTS based) raw data including 2D digital image correlation (DIC), results, and analysis tools; and, micro-computed tomography data including raw volume images, filtered images, binarized images, other results, and analysis tools. For more information see the readme and data documentation in each respective directory. A complete manuscript describing data collection, analysis, and database documentation is to be published.
 
 [Access the Full Dataset](https://doi.org/10.18126/6h74-leb4)
@@ -35,8 +33,7 @@ Add instructions and links here...
 
 ## Example Notebooks
 
-Add instructions and links to notebooks here that show how to use the data
-
+**2022-08-18** This repository is under construction, check back soon
 
 # How to Cite this Work
 ```
@@ -44,6 +41,11 @@ Landauer, Alexander K, Orion L Kafka, Newell H Moser, and Aaron M Forster.
 “A Materials Dataset for Elastomeric Foam Impact Mitigating Materials.” 
 Materials Data Facility, 2022. https://doi.org/10.18126/6H74-LEB4.
 ```
+
+# Changelog
+**2022-08-04** Repository created
+**2022-08-18** Added links and instructions for how to access data
+
 
 # Project Support
 
