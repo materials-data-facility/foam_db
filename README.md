@@ -143,10 +143,10 @@ Vinyl-nitrile close-cell foam from Dertex Corp "Impax VN600". Proprietary polyme
        | DESCRIPTION             TEST METHOD       VN600           UNITS            |
        |----------------------------------------------------------------------------|
        | HARDNESS (DUROMETER)    ASTM D2240          (55 - 75)     SHORE 00         |
-       |                         (TEMP. 21±0.5 °C)	                                |
-       | DENSITY                 ASTM D297	         (0.09 - 0.12) g/cm³            |
+       |                         (TEMP. 21±0.5 °C)                                  |
+       | DENSITY                 ASTM D297           (0.09 - 0.12) g/cm³            |
        | TENSILE STRENGTH        ASTM D412            13           kg/cm²           | 
-       | TEAR STRENGTH           ASTM D624	          6.5          kg/cm            |
+       | TEAR STRENGTH           ASTM D624            6.5          kg/cm            |
        | ELONGATION              ASTM D412            150 (min.)   % elongation     |
        | LINEAR SHRINKAGE        70 °C x 24 HR (10mm) 2.5          % shrinkage      |
        | COMPRESSION DEFLECTION  ASTM D1056           58.6 (min.)  25 % MPa         |
