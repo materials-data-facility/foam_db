@@ -137,7 +137,7 @@ Intermediate Rate Compression [VN01](https://app.globus.org/file-manager?origin_
 Micro-CT Images [VN01](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FmicroCT_data%2FVN01%2F)
 
 ### Material details: VN01 
-Vinyl-nitrile close-cell foam from Dertex Corp "Impax VN600". Proprietary polymer blend, likely a nitrile butadiene/polyvinyl-chloride blend, manufacture quoted specifications are as follows:
+Vinyl-nitrile close-cell foam from Dertex Corp "Impax VN600". Proprietary polymer blend, likely a nitrile butadiene/polyvinyl-chloride blend. Manufacturer quoted specifications are as follows:
 ```
         ____________________________________________________________________________
        | DESCRIPTION             TEST METHOD       VN600           UNITS            |
