@@ -188,6 +188,13 @@ Matlab-based digital image correlation package set up to run on electromechanica
 
 <img src="https://raw.githubusercontent.com/materials-data-facility/foam_db/main/examples/imgs/stress-strain.png" width="200">
 
+### DMA Data Visualization
+[Example Notebook](https://github.com/materials-data-facility/foam_db/blob/main/examples/DMA_data_visualization.ipynb)
+
+<img src="https://raw.githubusercontent.com/materials-data-facility/foam_db/main/examples/imgs/DMA.png" width="200">
+
+
+
 **2022-08-18** This example notebooks are under construction, check back soon
 
 # How to Cite this Work
