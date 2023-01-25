@@ -27,7 +27,7 @@ The database includes data for structure-properties relationships and mechanical
     |       |   |   ├── [VN01_001_D06_003_sweep_60C_to_n35C_full_data.xls]
     |       |   |   └── [VN01_TTS_D06_003_R01.xlsx]
     |       |   └── [raw data files] 
-    |       |── VN01_001_D06_004_R01/
+    |       ├── VN01_001_D06_004_R01/
     |       |   |── VN01_001_D06_004_R01_Procedures/
     |       |   |   └── [procedure files]
     |       |   ├── VN01_001_D06_004_R01_TTS/
