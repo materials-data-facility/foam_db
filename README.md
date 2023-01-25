@@ -207,7 +207,7 @@ Polyurethane-based higher moderate density (~240 kg/m^3 with 10 % tolerance) blo
        |_____________________________________________________________________________|
        
  ```
-For P125 and 155 (Poron XRD) data see also: [Experimental characterization and hyperelastic constitutive modeling of open-cell elastomeric foams](https://doi.org/10.1016/j.jmps.2019.103701)
+For P125 and 155 (Poron XRD) data see also: [Experimental characterization and hyperelastic constitutive modeling of open-cell elastomeric foams](https://doi.org/10.1016/j.jmps.2019.103701).
 
 ## Access Data by Experiment Type
 
