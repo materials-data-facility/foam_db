@@ -138,35 +138,76 @@ Data from quasistatic (no rate-dependent effects active) load-frame experiments 
 
 ## Access Data by Foam Type
 
-Currently there is one material in this dataset: `VN01` foam.
+Currently there is one complete material in this dataset: `VN01` foam, and two partial: `P125` and `P155`.
 
 DMA [VN01](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FDMA_data%2FVN01%2F)
+    [P125](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FDMA_data%2F)
+    [P155](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FDMA_data%2F)
 
 Quasi-Static Rate Compression [VN01](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2Fquasistatic_rate_data%2FVN01%2F)
+                              [P125](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2Fquasistatic_rate_data%2F)
 
 Intermediate Rate Compression [VN01](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2Fintermediate_rate_data%2FVN01%2F)
 
 Micro-CT Images [VN01](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FmicroCT_data%2FVN01%2F)
+                [P125](https://app.globus.org/file-manager?origin_id=82f1b5c6-6e9b-11e5-ba47-22000b92c6ec&origin_path=%2Fmdf_open%2Ffoam_db_v1.1%2FmicroCT_data%2F)
 
-### Material details: VN01 
+### Material details: 
+
+#### VN01 
 Vinyl-nitrile close-cell foam from Dertex Corp "Impax VN600". Proprietary polymer blend, likely a nitrile butadiene/polyvinyl-chloride blend. Manufacturer quoted specifications are as follows:
 ```
         ____________________________________________________________________________
-       | DESCRIPTION             TEST METHOD       VN600           UNITS            |
+       | DESCRIPTION             TEST METHOD         VN01          UNITS            |
        |----------------------------------------------------------------------------|
        | HARDNESS (DUROMETER)    ASTM D2240          (55 - 75)     SHORE 00         |
        |                         (TEMP. 21±0.5 °C)                                  |
        | DENSITY                 ASTM D297           (0.09 - 0.12) g/cm³            |
-       | TENSILE STRENGTH        ASTM D412            13           kg/cm²           | 
-       | TEAR STRENGTH           ASTM D624            6.5          kg/cm            |
+       | TENSILE STRENGTH        ASTM D412            1275         kPa              | 
+       | TEAR STRENGTH           ASTM D624            6.37         kN/m             |
        | ELONGATION              ASTM D412            150 (min.)   % elongation     |
        | LINEAR SHRINKAGE        70 °C x 24 HR (10mm) 2.5          % shrinkage      |
        | COMPRESSION DEFLECTION  ASTM D1056           58.6 (min.)  25 % MPa         |
-       |                         (TEMP. 21± 0.5°c)    8.4 (min.)   25 % PSI         |
+       |                         (TEMP. 21± 0.5°C)    8.4 (min.)   25 % PSI         |
        | RESILENCE               DIN 53512            13           % rebound        |
        |____________________________________________________________________________|
 
  ```
+
+#### P125 
+Polyurethane-based moderate density (~192 kg/m^3 with 10 % tolerance) blown open cell foam. This is proprietary polymer blend, marketed under the name Poron XRD by Rogers Corp. Manufacturer quoted specifications are as follows:
+```
+        _____________________________________________________________________________
+       | DESCRIPTION             TEST METHOD         P125           UNITS            |
+       |-----------------------------------------------------------------------------|
+       | HARDNESS (DUROMETER)    Shore "O"            19            SHORE 0          |
+       | DENSITY                 ASTM 3574-95 A      (0.192+/-10 %) g/cm³            |
+       | TENSILE STRENGTH        ASTM D412 E          310           kPa              | 
+       | TEAR STRENGTH           ASTM D624 C          0.9           kN/m             |
+       | ELONGATION              ASTM D412 E          145 (min.)    % elongation     |
+       | COMPRESSION SET         ASTM D 3574 D @70 °C < 10          % max.           |
+       | COMPRESSION DEFLECTION  0.2"/min @ 25 %      (10 - 38)     kPa              |
+       |_____________________________________________________________________________|
+
+ ```
+
+#### P155
+Polyurethane-based higher moderate density (~240 kg/m^3 with 10 % tolerance) blown open cell foam. This is proprietary polymer blend, marketed under the name Poron XRD by Rogers Corp. Manufacturer quoted specifications are as follows:
+```
+       _____________________________________________________________________________
+       | DESCRIPTION             TEST METHOD         P155           UNITS            |
+       |-----------------------------------------------------------------------------|
+       | HARDNESS (DUROMETER)    Shore "O"            32            SHORE 0          |
+       | DENSITY                 ASTM 3574-95 A      (0.240+/-10 %) g/cm³            |
+       | TENSILE STRENGTH        ASTM D412 E          483           kPa              | 
+       | TEAR STRENGTH           ASTM D624 C          0.9           kN/m             |
+       | ELONGATION              ASTM D412 E          145 (min.)    % elongation     |
+       | COMPRESSION SET         ASTM D 3574 D @70 °C < 10          % max.           |
+       | COMPRESSION DEFLECTION  0.2"/min @ 25 %      (28 - 62)     kPa              |
+       |_____________________________________________________________________________|
+       
+ ```
+For P125 and 155 (Poron XRD) data see also: [Experimental characterization and hyperelastic constitutive modeling of open-cell elastomeric foams](https://doi.org/10.1016/j.jmps.2019.103701)
 
 ## Access Data by Experiment Type
 
